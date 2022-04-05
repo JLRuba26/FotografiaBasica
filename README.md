@@ -1,4 +1,4 @@
-# Tech News HTML
+# Fotografia Basica HTML
 ![](./screenshot.png)
 
 # Recomendations
