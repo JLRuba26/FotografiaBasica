@@ -180,6 +180,44 @@ hr {
   padding: 100px 0 0 30px;
 }
 
+/* CARDS BANNER EF */
+.cards-banner-EF {
+  width: 100%;
+  height: 350px;
+  background: url("./img/tech-red.jpg");
+  margin-bottom: 40px;
+  text-align: center;
+  font-size: x-large;
+}
+
+.cards-banner-EF .content {
+  width: 100%;
+  padding: 100px 0 0 50px;
+  color: rgb(0, 0, 0);
+}
+
+.cards-banner-EF p,
+.cards-banner-two p {
+  margin: 10px 0 20px 0;
+}
+
+/*TOC CONTAINER*/
+.no_bullets{
+  width: 100%;
+  padding-left: 30px;
+  height: 350px;
+  margin-bottom: 40px;
+  text-align:left;
+  font-size:medium;
+}
+
+/*Togge Tittle*/
+.toc_title{
+  text-align: center;
+  font-size: X-large;
+  font-style:italic;
+}
+
 /* Follow */
 .social {
   margin: 50px;
@@ -202,6 +240,58 @@ hr {
 .links a i {
   font-size: 3rem;
 }
+
+/* Entry Body*/
+
+.entry-body{
+  width: 900px;
+  margin: 20px auto;
+  text-align: justify;
+}
+
+.entry-content{
+  padding: 50px;
+}
+
+.entry-body p{
+  margin: 0px 20px;
+}
+
+h1{
+  margin: 5px;
+}
+
+.lazyloaded {
+  max-width: 50%;
+  max-height: 50%;
+ }
+
+/*Up Botton*/
+
+#botonarriba{
+  width: 60px;
+  height: 60px;
+  background-color: #262626;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  border-radius: 50%;
+  font-size: 20px;
+  position: fixed;
+  bottom: 50px;
+  right: 50px;
+  cursor: pointer;
+  border: 4px solid transparent;
+  transition: all 300ms ease;
+  transform: scale(0);
+}
+
+#botonarriba:hover{
+  transform: scale(1.1);
+  border-color: #565e68;
+}
+
 
 /* Links */
 .footer-links {
