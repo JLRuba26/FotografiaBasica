@@ -9,8 +9,8 @@ body {
   font-family: "Oswald", sans-serif;
   background-color: #000000;
   /* Pattern from https://www.heropatterns.com/ */
-  background-color: #DFDBE5;
-  background-color: #DFDBE5;
+  background-color: #dfdbe5;
+  background-color: #dfdbe5;
   background-image: url("data:image/svg+xml,%3Csvg width='84' height='16' viewBox='0 0 84 16' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M78 7V4h-2v3h-3v2h3v3h2V9h3V7h-3zM30 7V4h-2v3h-3v2h3v3h2V9h3V7h-3zM10 0h2v16h-2V0zm6 0h4v16h-4V0zM2 0h4v16H2V0zm50 0h2v16h-2V0zM38 0h2v16h-2V0zm28 0h2v16h-2V0zm-8 0h6v16h-6V0zM42 0h6v16h-6V0z' fill='%23d4cce2' fill-opacity='0.4' fill-rule='evenodd'/%3E%3C/svg%3E");
   color: #1e272e;
   color: #555151;
@@ -180,6 +180,29 @@ hr {
   padding: 100px 0 0 30px;
 }
 
+/* CARDS BANNER CB */
+.cards-banner-CB {
+  width: 100%;
+  height: 350px;
+  background: url("./img/atardecer-ciudad-panama-9660-16x7-02.jpg");
+  background-size:cover;
+  margin-bottom: 40px;
+  text-align: center;
+  font-size: x-large;
+}
+
+.cards-banner-CB .content {
+  width: 95%;
+  padding: 90px 0 0 50px;
+  color: rgb(247, 240, 240);
+}
+
+.cards-banner-CB, .h2CB , .pCB{
+  margin: 10px 0 20px 0;
+  background-color: #00000093;
+  border-radius: 20px;
+}
+
 /* CARDS BANNER EF */
 .cards-banner-EF {
   width: 100%;
@@ -191,31 +214,124 @@ hr {
 }
 
 .cards-banner-EF .content {
-  width: 100%;
-  padding: 100px 0 0 50px;
+  width: 95%;
+  padding: 90px 0 0 50px;
   color: rgb(0, 0, 0);
 }
 
-.cards-banner-EF p,
-.cards-banner-two p {
+.cards-banner-EF, .h2EF , .pEF{
   margin: 10px 0 20px 0;
+  background-color: #ffffff54;
+  border-radius: 20px;
+}
+
+/* CARDS BANNER FR */
+.cards-banner-FR {
+  width: 100%;
+  height: 350px;
+  background: url("./img/curriculum_fotografo_zety_es_1.jpg");
+  background-position:right;
+  margin-bottom: 40px;
+  text-align: center;
+  font-size: x-large;
+}
+
+.cards-banner-FR .content {
+  width: 95%;
+  padding: 90px 0 0 50px;
+  color: rgb(255, 255, 255);
+}
+
+.cards-banner-FR, .h2FR , .pFR{
+  margin: 10px 0 20px 0;
+  background-color: #0000007e;
+  border-radius: 20px;
+}
+
+/* CARDS BANNER APP */
+.cards-banner-APP {
+  width: 100%;
+  height: 350px;
+  background:center url("./img/wp2855578.jpg");
+  background-size:cover;
+  margin-bottom: 40px;
+  text-align: center;
+  font-size: x-large;
+}
+
+.cards-banner-APP .content {
+  width: 95%;
+  padding: 90px 0 0 50px;
+  color: rgb(0, 0, 0);
+}
+
+.cards-banner-APP, .h2APP , .pAPP{
+  margin: 10px 0 20px 0;
+  background-color: #ffffffab;
+  border-radius: 20px;
+}
+
+/* CARDS BANNER CAM */
+.cards-banner-CAM {
+  width: 100%;
+  height: 350px;
+  background:center url("./img/image-five.jpg");
+  background-size:cover;
+  margin-bottom: 40px;
+  text-align: center;
+  font-size: x-large;
+}
+
+.cards-banner-CAM .content {
+  width: 95%;
+  padding: 90px 0 0 50px;
+  color: rgb(247, 240, 240);
+}
+
+.cards-banner-CAM, .h2CAM , .pCAM{
+  margin: 10px 0 20px 0;
+  background-color: #00000069;
+  border-radius: 20px;
+}
+
+/* CARDS BANNER CAN */
+.cards-banner-CAN {
+  width: 100%;
+  height: 350px;
+  background:center url("./img/56702.jpg");
+  background-size:cover;
+  margin-bottom: 40px;
+  text-align: center;
+  font-size: x-large;
+}
+
+.cards-banner-CAN .content {
+  width: 95%;
+  padding: 90px 0 0 50px;
+  color: rgb(247, 240, 240);
+}
+
+.cards-banner-CAN, .h2CAN , .pCAN{
+  margin: 10px 0 20px 0;
+  background-color: #00000093;
+  border-radius: 20px;
 }
 
 /*TOC CONTAINER*/
-.no_bullets{
+.no_bullets {
   width: 100%;
   padding-left: 30px;
   height: 350px;
   margin-bottom: 40px;
-  text-align:left;
-  font-size:medium;
+  text-align: left;
+  font-size: medium;
 }
 
 /*Togge Tittle*/
-.toc_title{
+.toc_title {
   text-align: center;
   font-size: X-large;
-  font-style:italic;
+  font-style: italic;
 }
 
 /* Follow */
@@ -243,32 +359,54 @@ hr {
 
 /* Entry Body*/
 
-.entry-body{
+.entry-body {
   width: 900px;
   margin: 20px auto;
   text-align: justify;
 }
 
-.entry-content{
+.entry-content {
   padding: 50px;
 }
 
-.entry-body p{
-  margin: 0px 20px;
+.entry-body p,
+ul,
+h2,
+ol,
+h3,
+figure {
+  margin: 10px 20px;
 }
 
-h1{
+
+
+h1 {
   margin: 5px;
 }
 
 .lazyloaded {
   max-width: 50%;
   max-height: 50%;
- }
+}
 
+.boton-bello {
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 20px;
+  color: #fff;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  padding-left: 40px;
+  padding-right: 40px;
+  background-color: #262626;
+  border-color: #d8d8d8;
+  border-width: 3px;
+  border-style: solid;
+  border-radius: 35px;
+}
 /*Up Botton*/
 
-#botonarriba{
+#botonarriba {
   width: 60px;
   height: 60px;
   background-color: #262626;
@@ -287,11 +425,10 @@ h1{
   transform: scale(0);
 }
 
-#botonarriba:hover{
+#botonarriba:hover {
   transform: scale(1.1);
   border-color: #565e68;
 }
-
 
 /* Links */
 .footer-links {
@@ -327,12 +464,12 @@ h1{
   padding-bottom: 20px;
 }
 
-.entry-body{
+.entry-body {
   background-color: #dce1e9;
   margin: 40px;
 }
 
-.entry-content{
+.entry-content {
   font-family: inherit;
   font-size: 100%;
   font-weight: inherit;
@@ -344,7 +481,29 @@ h1{
   outline: 0;
 }
 
-.indice-conceptos{
+.entry-content-CR {
+  font-family: inherit;
+  font-size: 100%;
+  font-weight: inherit;
+  font-style: inherit;
+  margin: 0;
+  padding: 0;
+  vertical-align: baseline;
+  border: 0;
+  outline: 0;
+}
+
+.entry-content-CR p {
+  margin-bottom: 10px;
+}
+
+.entry-content-CR figure {
+  margin-left: 50px;
+  margin-bottom: 30px;
+  margin-top: 30px;
+}
+
+.indice-conceptos {
   margin: 20px 30px;
 }
 
@@ -403,11 +562,11 @@ h1{
     grid-template-columns: repeat(2, 1fr);
   }
 
-  .entry-body{
+  .entry-body {
     margin: 40px;
   }
 
-  .entry-content{
+  .entry-content {
     font-family: inherit;
     font-size: 100%;
     font-weight: inherit;

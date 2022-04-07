@@ -1,145 +1,468 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CamaraAdictos</title>
+    <!-- Font -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Oswald:wght@300;400;500&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Font Awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css"
+    />
+    <!-- CUSTOM CSS -->
+    <link rel="stylesheet" href="styles.css" />
+  </head>
 
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>CamaraAdictos</title>
-  <!-- Font -->
-  <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@300;400;500&display=swap" rel="stylesheet">
-  <!-- Font Awesome -->
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
-  <!-- CUSTOM CSS -->
-  <link rel="stylesheet" href="styles.css">
-</head>
+  <body>
+    <div class="menu-btn">
+      <i class="fas fa-bars fa-2x"></i>
+    </div>
 
-<body>
+    <div class="container">
+      <!-- Navigation -->
+      <nav class="nav-main">
+        <!-- Brand -->
+        <img src="img/brand.png" alt="TechNews Logo" class="nav-brand" />
+        <!-- Left Nav -->
+        <ul class="nav-menu">
+          <li>
+            <a href="index.html">Home</a>
+          </li>
+          <li>
+            <a href="ConceptosBasicos.html">Conceptos Basicos</a>
+          </li>
+          <li>
+            <a href="EstilosFotografia.html">Estilos de fotografia</a>
+          </li>
+          <li>
+            <a href="FotografosReferencia.html">Fotografos de referencia</a>
+          </li>
+          <li>
+            <a href="Aplicaciones.html">Aplicaciones</a>
+          </li>
+          <li>
+            <a href="Camaras.html">Camaras</a>
+          </li>
+          <li>
+            <a href="Canales.html">Canales</a>
+          </li>
+        </ul>
 
-  <div class="menu-btn">
-    <i class="fas fa-bars fa-2x"></i>
-  </div>
-
-  <div class="container">
-    <!-- Navigation -->
-    <nav class="nav-main">
-      <!-- Brand -->
-      <img src="img/brand.png" alt="TechNews Logo" class="nav-brand">
-      <!-- Left Nav -->
-      <ul class="nav-menu">
-        <li>
-          <a href="index.html">Home</a>
-        </li>
-        <li>
-          <a href="ConceptosBasicos.html">Conceptos Basicos</a>
-        </li>
-        <li>
-          <a href="EstilosFotografia.html">Estilos de fotografia</a>
-        </li>
-        <li>
-          <a href="FotografosReferencia.html">Fotografos de referencia</a>
-        </li>
-        <li>
-          <a href="Aplicaciones.html">Aplicaciones</a>
-        </li>
-        <li>
-          <a href="Camaras.html">Camaras</a>
-        </li>
-        <li>
-          <a href="Canales.html">Canales</a>
-        </li>
-        <li>
-          <a href="Galerias.html">Galerias</a>
-        </li>
-      </ul>
-
-      <!-- Right Nav -->
-      <!--<ul class="nav-menu-right">
+        <!-- Right Nav -->
+        <!--<ul class="nav-menu-right">
         <li>
           <a href="#">
             <i class="fas fa-search"></i>
           </a>
         </li>
       </ul>-->
-    </nav>
-    <hr>
+      </nav>
+      <hr />
 
-     <!-- Card Banner 1-->
-     <section class="cards-banner-EF">
-      <div class="content">
-        <h2>Aplicaciones</h2>
-        <!-- lorem 20 -->
-        <p>Hay muchos estilos dentro del mundo de la fotografía, pero seguro que tienes un tipo de fotografía preferido. Te contamos todo acerca de los distintos tipos de fotografías y sus fotógrafos más representativos.</p>
-        <a href="#" class="btn">Learn More<i class="fas fa-chevron-right"></i></a>
+      <!-- Card Banner 1-->
+      <section class="cards-banner-APP">
+        <div class="content">
+          <h2 class="h2APP">Aplicaciones</h2>
+          <!-- lorem 20 -->
+          <p class="pAPP">
+            Hay muchos estilos dentro del mundo de la fotografía, pero seguro
+            que tienes un tipo de fotografía preferido. Te contamos todo acerca
+            de los distintos tipos de fotografías y sus fotógrafos más
+            representativos.
+          </p>
+        </div>
+      </section>
+
+      <div class="entry-body">
+        <div class="entry-content">
+          <p>
+            Poco a poco el smartphone se ha vuelto una herramienta más y más
+            importante en mi flujo de trabajo. Desde pequeñas acciones como
+            poder compartir información y revisar elementos rápidamente, a ser
+            un accesorio que complementa mi sistema fotográfico. Así que, en
+            esta ocasión, quise compartir las
+            <strong>aplicaciones móviles vitales</strong> que tengo en mi móvil
+            y por qué son útiles dentro de mi flujo de trabajo fotográfico.
+            <strong
+              >Presentaré las que encontramos tanto en iOS como en
+              Android</strong
+            >.
+          </p>
+          <!-- BREAK 1 -->
+          <h2>En la preproducción</h2>
+          <p>
+            Al visitar una localización hay muchos elementos para analizar:
+            <strong
+              >entradas de luz, ópticas, notas sobre el lugar y apuntes de
+              producción</strong
+            >. Para atacar esas necesidades y recopilar la información estas son
+            mis apps más usadas:
+          </p>
+          <!-- BREAK 2 -->
+          <br />
+          <h3>PhotoPills</h3>
+          <br />
+          <img
+            width="628"
+            height="442"
+            class=""
+            data-sf-srcset="https://i.blogs.es/edd649/apss-001/450_1000.jpeg 450w, https://i.blogs.es/edd649/apss-001/650_1200.jpeg 681w,https://i.blogs.es/edd649/apss-001/1024_2000.jpeg 1024w, https://i.blogs.es/edd649/apss-001/1366_2000.jpeg 1366w,"
+            data-sf-src="https://i.blogs.es/edd649/apss-001/450_1000.jpeg"
+            alt="Apss 001"
+            srcset="
+              https://i.blogs.es/edd649/apss-001/450_1000.jpeg   450w,
+              https://i.blogs.es/edd649/apss-001/650_1200.jpeg   681w,
+              https://i.blogs.es/edd649/apss-001/1024_2000.jpeg 1024w,
+              https://i.blogs.es/edd649/apss-001/1366_2000.jpeg 1366w
+            "
+            src="./Soy fotógrafo y estás son las aplicaciones indispensables que tengo instaladas en el móvil_files/450_1000(1).jpeg"
+          />
+          <noscript
+            ><img
+              alt="Apss 001"
+              class=""
+              src="https://i.blogs.es/edd649/apss-001/450_1000.jpeg"
+          /></noscript>
+          <p>
+            Muchos ya conocéis el poder de esta app y
+            <a
+              href="https://www.xatakafoto.com/software/las-mejores-aplicaciones-moviles-android-e-ios-para-fotografos-i-captura-de-imagenes"
+              >ya hemos hablado de ella anteriormente</a
+            >.
+            <strong
+              >Esta herramienta todo en uno nos sirve como calculadora de ángulo
+              de visión, trayectoria del sol, trayectoria de la luna, planeador
+              de localización entre muchísimas de las funciones adicionales que
+              tiene</strong
+            >. Además de ser una app desarrollada por españoles, es un software
+            diseñado con todas las necesidades del usuario.
+          </p>
+          <!-- BREAK 3 -->
+          <p>
+            Consíguela para
+            <a href="https://apps.apple.com/es/app/photopills/id596026805"
+              >iOS</a
+            >
+            o
+            <a
+              href="https://play.google.com/store/apps/details?id=com.photopills.android.photopills&amp;hl=es&amp;gl=US"
+              >Android</a
+            >
+            (10,99 €)
+          </p>
+          <!-- BREAK 4 -->
+          <h3>What3Words</h3>
+
+          <p>
+            Esta app es un complemento para la función de localización de
+            PhotoPills. Es un mapa virtual donde podemos guardar ubicaciones,
+            pero lo que lo diferencia de otras apps es que las coordenadas son
+            una serie de tres palabras al azar. Esto hace que sea más fácil para
+            reemplazar compartir un código de números y, en vez, la ubicación
+            con tres palabras.
+            <strong
+              >Podemos etiquetar estas localizaciones y agregar imágenes que la
+              acompañen</strong
+            >.
+          </p>
+          <!-- BREAK 5 -->
+          <p>
+            Consíguela para
+            <a href="https://apps.apple.com/es/app/what3words/id657878530"
+              >iOS</a
+            >
+            o
+            <a
+              href="https://play.google.com/store/apps/details?id=com.what3words.android&amp;hl=es&amp;gl=US"
+              >Android</a
+            >
+            (gratis)
+          </p>
+          <!-- BREAK 6 -->
+          <h3>Adobe Capture</h3>
+
+          <p>
+            La app de adobe es una herramienta muy útil para obtener rápidamente
+            assets desde la realidad. Podemos capturar materiales para modelos
+            3D, reconocer tipografías, capturar patrones y formas, obtener
+            paletas de color, crear brochas e incluso definir estilos. Dentro de
+            estas opciones la que más utilizo es la de paletas de color,
+            <strong
+              >la cual me ayuda a poder desglosar los tonos de la localización
+              para poder definir la armonía general de la imagen final</strong
+            >.
+          </p>
+          <!-- BREAK 7 -->
+          <p>
+            Consíguela para
+            <a href="https://apps.apple.com/ec/app/adobe-capture/id1040200189"
+              >iOS</a
+            >
+            o
+            <a
+              href="https://play.google.com/store/apps/details?id=com.adobe.creativeapps.gather&amp;hl=es&amp;gl=US"
+              >Android</a
+            >
+            (gratis)
+          </p>
+          <!-- BREAK 8 -->
+          <h3>Evernote</h3>
+
+          <p>
+            Una app ideal para guardar todas las notas de la producción.
+            <strong
+              >Se pueden agregar imágenes, enlaces, apuntes y demás elementos de
+              producción necesarios para la toma</strong
+            >. Podemos compartir con colaboradores y podemos crear elementos de
+            registro y listas de elementos para que no se nos pase nada
+            importante. Una app de gestión muy útil para cualquier producción
+            fotográfica.
+          </p>
+          <!-- BREAK 9 -->
+          <p>
+            Consíguela para
+            <a
+              href="https://apps.apple.com/es/app/evernote-notes-organizer/id281796108"
+              >iOS</a
+            >
+            o
+            <a
+              href="https://play.google.com/store/apps/details?id=com.evernote&amp;hl=es&amp;gl=US"
+              >Android</a
+            >
+            (gratis)
+          </p>
+          <!-- BREAK 10 -->
+          <h2>Durante la captura</h2>
+
+          <p>
+            En la captura podemos utilizar nuestro móvil de varias maneras, pero
+            hay una especial que es muy útil:
+          </p>
+          <!-- BREAK 11 -->
+          <h3>Camera Connect</h3>
+
+          <p>
+            Esta es la app de sincronización de Canon, sin embargo la
+            recomendación es utilizar la app que se conecte a nuestra cámara.
+            Esta herramienta nos sirve como visor, nos sirve para tener una
+            copia de las imágenes (cuando tenemos la función sincronizada)
+            <strong
+              >y es una forma útil de controlar la cámara cuando queremos evitar
+              tocar el cuerpo de la cámara en la toma</strong
+            >. La situación de usos va a ser muy distinta.
+          </p>
+          <!-- BREAK 12 -->
+
+          <img
+            width="662"
+            height="360"
+            class=""
+            data-sf-srcset="https://i.blogs.es/3491f5/apss-002/450_1000.jpeg 450w, https://i.blogs.es/3491f5/apss-002/650_1200.jpeg 681w,https://i.blogs.es/3491f5/apss-002/1024_2000.jpeg 1024w, https://i.blogs.es/3491f5/apss-002/1366_2000.jpeg 1366w,"
+            data-sf-src="https://i.blogs.es/3491f5/apss-002/450_1000.jpeg"
+            alt="Apss 002"
+            srcset="
+              https://i.blogs.es/3491f5/apss-002/450_1000.jpeg   450w,
+              https://i.blogs.es/3491f5/apss-002/650_1200.jpeg   681w,
+              https://i.blogs.es/3491f5/apss-002/1024_2000.jpeg 1024w,
+              https://i.blogs.es/3491f5/apss-002/1366_2000.jpeg 1366w
+            "
+            src="./Soy fotógrafo y estás son las aplicaciones indispensables que tengo instaladas en el móvil_files/450_1000(2).jpeg"
+          />
+          <noscript
+            ><img
+              alt="Apss 002"
+              class=""
+              src="https://i.blogs.es/3491f5/apss-002/450_1000.jpeg"
+          /></noscript>
+
+          <p>
+            El visor en general es útil para tener una vista más grande de la
+            toma, sin embargo no es útil si necesitamos velocidad en la toma; es
+            más para tomas de producto, algunas tomas de paisaje y algunas
+            situaciones de retrato más controladas. Durante eventos, el tener
+            una copia de la imagen que se sincronice en el móvil es muy útil
+            para aquellos clientes que desean ir compartiendo imágenes en
+            directo, así mismo es una herramienta importante para tener un
+            respaldo de la sesión.
+            <strong
+              >Y el control remoto va a ser muy útil para poder controlar los
+              aspectos de cámara desde la distancia</strong
+            >, lo que es muy útil en fotografía de producto y en fotografía
+            nocturna.
+          </p>
+          <!-- BREAK 13 -->
+          <p>
+            Consíguela para
+            <a
+              href="https://apps.apple.com/us/app/canon-camera-connect/id944097177"
+              >iOS</a
+            >
+            o
+            <a
+              href="https://play.google.com/store/apps/details?id=jp.co.canon.ic.cameraconnect&amp;hl=es&amp;gl=US"
+              >Android</a
+            >
+            (gratis)
+          </p>
+          <!-- BREAK 14 -->
+          <h2>En la edición</h2>
+          <br>
+          <h3><strong>Snapseed</strong></h3>
+
+          <p>
+            Hemos
+            <a
+              href="https://www.xatakafoto.com/software/editores-fotografia-para-android-que-nos-ayudaran-nuestro-flujo-trabajo-movil"
+              >hablado mucho de este software</a
+            >
+            en el portal. Esto se debe a que el editor de imágenes de Google es
+            uno de los más completos que hay para móviles, con la gran ventaja
+            de que es gratuito. Tiene ajustes sencillos de manejar, tiene
+            ajustes avanzados y tiene manejo de máscaras,
+            <strong
+              >lo que lo hacen muy útil para obtener imágenes interesantes para
+              compartir en redes o compartir con clientes en el momento</strong
+            >.
+          </p>
+          <!-- BREAK 15 -->
+                <img 
+                width="662"
+                height="360"
+                  class=""
+                  data-sf-srcset="https://i.blogs.es/0b73e2/1366_2000/450_1000.jpeg 450w, https://i.blogs.es/0b73e2/1366_2000/650_1200.jpeg 681w,https://i.blogs.es/0b73e2/1366_2000/1024_2000.jpeg 1024w, https://i.blogs.es/0b73e2/1366_2000/1366_2000.jpeg 1366w,"
+                  data-sf-src="https://i.blogs.es/0b73e2/1366_2000/450_1000.jpeg"
+                  alt="snapseed"
+                  srcset="
+                    https://i.blogs.es/0b73e2/1366_2000/450_1000.jpeg   450w,
+                    https://i.blogs.es/0b73e2/1366_2000/650_1200.jpeg   681w,
+                    https://i.blogs.es/0b73e2/1366_2000/1024_2000.jpeg 1024w,
+                    https://i.blogs.es/0b73e2/1366_2000/1366_2000.jpeg 1366w
+                  "
+                  src="./Soy fotógrafo y estás son las aplicaciones indispensables que tengo instaladas en el móvil_files/450_1000(3).jpeg"
+                />
+                <noscript
+                  ><img
+                    alt="snapseed"
+                    class=""
+                    src="https://i.blogs.es/0b73e2/1366_2000/450_1000.jpeg"
+                /></noscript>
+          <p>
+            Consíguela para
+            <a href="https://apps.apple.com/es/app/snapseed/id439438619">iOS</a>
+            o
+            <a
+              href="https://play.google.com/store/apps/details?id=com.niksoftware.snapseed&amp;hl=es&amp;gl=US"
+              >Android</a
+            >
+            (gratis)
+          </p>
+          <!-- BREAK 16 -->
+          <h3>Lightroom</h3>
+
+          <p>
+            Cuando queremos una edición algo más completa podemos utilizar el
+            poder de un editor más avanzado.
+            <strong
+              >Además de ser compatible con más formatos RAW que la app de
+              Google</strong
+            >, sus ajustes son mucho más finos y pulidos. Además, podemos hacer
+            ediciones básicas en Lightroom móvil y terminar de editar en
+            Lightroom en el ordenador gracias al sistema de sincronización de
+            imágenes.
+          </p>
+          <!-- BREAK 17 -->
+          <p>
+            Consíguela para
+            <a
+              href="https://apps.apple.com/es/app/adobe-lightroom-photo-editor/id878783582"
+              >iOS</a
+            >
+            o
+            <a
+              href="https://play.google.com/store/apps/details?id=com.adobe.lrmobile&amp;hl=es&amp;gl=US"
+              >Android</a
+            >
+            (gratis)
+          </p>
+          <!-- BREAK 18 -->
+          <p></p>
+        </div>
       </div>
-    </section>
 
-    <div class="entry-body">
-      <div class="entry-content">
-        
-      </div>
-    </div>
-    
-    <!-- Follow -->
-    <section class="social">
-      <p>Follow TechNews</p>
-      <div class="links">
-        <a href="https://facebook.com">
-          <i class="fab fa-facebook-f"></i>
-        </a>
-        <a href="https://twitter.com">
-          <i class="fab fa-twitter"></i>
-        </a>
-        <a href="https://linkdin.com">
-          <i class="fab fa-linkedin"></i>
-        </a>
-      </div>
-    </section>
-  </div>
-
-  <!-- up botton -->
-  <div id="botonarriba">
-    <i class="fas fa-chevron-up"></i>
-  </div>
-
-  <!-- Footer Links -->
-  <div class="footer-links">
-    <div class="footer-container">
-      <ul>
-        <li>
-          <a href="#">
-            <h3>Referencias</h3>
+      <!-- Follow -->
+      <section class="social">
+        <p>Follow TechNews</p>
+        <div class="links">
+          <a href="https://facebook.com">
+            <i class="fab fa-facebook-f"></i>
           </a>
-        </li>
-        <li>
-          <a href="https://www.xatakafoto.com/">Xataka Fotos</a>
-        </li>
-        <li>
-          <a href="https://capturetheatlas.com/es/">Capture the Atlas</a>
-        </li>
-        <li>
-          <a href="https://toomanyflash.com/">Tony Many Flash</a>
-        </li>
-        <li>
-          <a href="https://www.crehana.com/cr/blog/fotografia/tipos-de-fotografia-que-tienes-que-conocer/">Crehana</a>
-        </li>
-        <li>
-          <a href="https://mott.pe/noticias/10-tipos-de-fotografia-que-te-ayudaran-a-definir-tu-estilo-de-captura/">Mott</a>
-        </li>
-        <li>
-          <a href="https://fototrending.com/tipos-de-fotografia/">Foto Trending</a>
-        </li>
-      </ul>
+          <a href="https://twitter.com">
+            <i class="fab fa-twitter"></i>
+          </a>
+          <a href="https://linkdin.com">
+            <i class="fab fa-linkedin"></i>
+          </a>
+        </div>
+      </section>
     </div>
-  </div>
 
-  <!-- Footer -->
-  <footer class="footer">
-    <h3>Tech News Copyright</h3>
-  </footer>
+    <!-- up botton -->
+    <div id="botonarriba">
+      <i class="fas fa-chevron-up"></i>
+    </div>
 
-  <!-- Scroll Reveal -->
-  <script src="https://unpkg.com/scrollreveal"></script>
-  <script src="main.js"></script>
-</body>
+    <!-- Footer Links -->
+    <div class="footer-links">
+      <div class="footer-container">
+        <ul>
+          <li>
+            <a href="#">
+              <h3>Referencias</h3>
+            </a>
+          </li>
+          <li>
+            <a href="https://www.xatakafoto.com/">Xataka Fotos</a>
+          </li>
+          <li>
+            <a href="https://capturetheatlas.com/es/">Capture the Atlas</a>
+          </li>
+          <li>
+            <a href="https://toomanyflash.com/">Tony Many Flash</a>
+          </li>
+          <li>
+            <a
+              href="https://www.crehana.com/cr/blog/fotografia/tipos-de-fotografia-que-tienes-que-conocer/"
+              >Crehana</a
+            >
+          </li>
+          <li>
+            <a
+              href="https://mott.pe/noticias/10-tipos-de-fotografia-que-te-ayudaran-a-definir-tu-estilo-de-captura/"
+              >Mott</a
+            >
+          </li>
+          <li>
+            <a href="https://fototrending.com/tipos-de-fotografia/"
+              >Foto Trending</a
+            >
+          </li>
+        </ul>
+      </div>
+    </div>
 
+    <!-- Footer -->
+    <footer class="footer">
+      <h3>Tech News Copyright</h3>
+    </footer>
+
+    <!-- Scroll Reveal -->
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script src="main.js"></script>
+  </body>
 </html>
